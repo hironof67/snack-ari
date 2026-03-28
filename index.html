@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>スナック蟻｜なんば駅徒歩5分</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background:#111;
+  color: #fff;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.hero {
+  background: url("inside.jpg") center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px;
+}
+
+.price-box {
+  background: #8B0000;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: gold;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.access {
+  background: #222;
+}
+
+.footer-cta {
+  background: #b30000;
+  padding: 40px 20px;
+}
+
+.fixed-tel {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #b30000;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.fixed-tel a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ファーストビュー -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>スナック蟻</h1>
+    <p>なんば駅徒歩5分</p>
+    <p>20分500円｜飲み放題・歌い放題</p>
+    <a href="tel:0666334649" class="button">📞 今すぐ電話する</a>
+  </div>
+</section>
+
+<!-- コンセプト -->
+<section>
+  <h2>初めてでも、ひとりでも。</h2>
+  <p>
+  30代〜60代中心。<br>
+  女性お一人様も歓迎。<br>
+  常連様多数のアットホームな空間。
+  </p>
+</section>
+
+<!-- 料金 -->
+<section>
+  <h2>料金システム</h2>
+  <div class="price-box">
+    20分 500円<br>
+    飲み放題・歌い放題
+  </div>
+  <p style="margin-top:15px;">1品料理 100円〜｜延長あり</p>
+</section>
+
+<!-- 楽しさ -->  
+<section class="image-section">
+  <h2>歌って、ちょっと嬉しい。</h2>
+  <p>採点で金券プレゼントなど楽しいサービスも。</p>
+  <img src="score.jpg" alt="採点サービス"
+  style="max-width:100%; height:auto;">
+</section>
+
+<!-- 店内 -->
+<section class="image-section">
+  <h2>落ち着いた大人の時間</h2>
+  <img src="inside2.jpg" alt="店内写真"
+  style="max-width:100%; height:auto;">
+</section>
+
+<!-- アクセス -->
+<section class="access image-section">
+  <h2>アクセス</h2>
+  <p>
+  大阪市中央区難波千日前3-3<br>
+  なんば駅徒歩5分<br>
+  営業時間 18:00〜23:00（延長あり）
+  </p>
+  <img src="outside.jpg" alt="外観写真"
+  style="max-width:100%; height:auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5822274070765!2d135.50436879999998!3d34.6652522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e76a5111c613%3A0x25a3cd163e2dafa3!2z44CSNTQyLTAwNzUg5aSn6Ziq5bqc5aSn6Ziq5biC5Lit5aSu5Yy66Zuj5rOi5Y2D5pel5YmN77yT4oiS77yT!5e0!3m2!1sja!2sjp!4v1771838364179!5m2!1sja!2sjp" 
+  width="100%" 
+  height="300" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <br>
+  <a href="tel:0666334649" class="button">📞 06-6633-4649</a>
+</section>
+
+<!-- 最終CTA -->
+<section class="footer-cta">
+  <h2>今夜、少し寄っていきませんか？</h2>
+  <a href="tel:0666334649" class="button">📞 お電話はこちら</a>
+</section>
+
+<!-- 固定電話ボタン -->
+<div class="fixed-tel">
+  <a href="tel:0666334649">📞 06-6633-4649</a>
+</div>
+
+</body>
+</html>
